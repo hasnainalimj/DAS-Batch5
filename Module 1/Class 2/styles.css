@@ -1,0 +1,153 @@
+/* 
+CSS = Cascading Style Sheet */
+
+/* Tag Selector */
+
+/* Types of css
+1) Inline 
+2) Internal
+3) External
+*/
+
+@font-face {
+    font-family: 'DAS-Fonts';
+    src: url(assets/fonts/Mali-Bold.ttf);
+}
+
+/* Universal Selector */
+* {
+  font-weight: bold;
+  font-style: italic;
+}
+
+p {
+  color: red !important;
+}
+
+h2,
+h3,
+h4 {
+  text-decoration: underline;
+}
+
+/* Class Selector */
+
+.para {
+  color: pink !important;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.para::first-letter {
+    font-size: 40px;
+}
+
+body {
+  padding: 10px;
+}
+
+/* ID Selector */
+
+#container {
+  /* width: 100px; */
+  height: 100px;
+  /* background-color: orange; */
+  padding: inherit;
+  /* opacity: 0.5; */
+  background-color: rgba(0,0,0,0.5);
+  text-align: center;
+  vertical-align: top;
+  text-indent: 20px;
+}
+
+/*Child Selector */
+
+#container > p {
+  color: blue !important;
+}
+
+/* Descendant Selector */
+
+#container p {
+  color: blue !important;
+  font-family: 'DAS-Fonts';
+  font-weight: bold;
+  font-style: italic;
+  text-transform:capitalize;
+  text-decoration: line-through;
+  line-height: 10px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+
+/* Adjacent Sibling
+Selector Apply styling to p  next after any h1*/
+/* h1+p {
+
+} */
+
+/* General Sibling
+Selector */
+/* h1~p {
+
+} */
+
+/* body {
+  background-color: rgb(200, 200, 200);
+}
+
+h1 {
+  background-color: DarkCyan;
+}
+
+h2 {
+  background-color: #ee3e80;
+}
+
+p {
+  background-color: white;
+} */
+
+a:link {
+    color: red
+}
+
+a:visited {
+    color: yellow
+}
+
+#container:hover {
+    background-color: blue;
+}
+
+input:focus {
+    background-color: grey;
+}
+
+button:active {
+    background-color: brown;
+}
+
+#box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /* border: 1px dashed black; */
+    /* border-radius: 100px; */
+    border-top-left-radius: 20px;
+    /* overflow: scroll; */
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+    /* padding: 30px; */
+    /* margin: 20px; */
+    /* margin-left: ; */
+    /* visibility: hidden */
+    box-shadow: 5px 10px 5px 5px grey;
+    cursor: move
+}
+
+ul {
+    list-style-type: disc;
+    /* list-style-image: url("assets/images/m.png"); */
+}
