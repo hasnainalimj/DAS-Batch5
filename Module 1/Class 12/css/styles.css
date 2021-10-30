@@ -1,0 +1,28 @@
+.container {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin-top: 20px;
+}
+
+.secondary {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin-top: 20px;
+}
+
+.animated {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 0px;
+  transition: border-radius 1s;
+  margin-top: 20px;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+  margin-top: 20px;
+}

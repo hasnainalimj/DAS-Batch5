@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CLass 12</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <a href="#" onclick="alert('Hello')">Say Hello</a>
+
+    <a href="#" onclick="sayBye()">Say Bye</a>
+    <!-- <a href="mailto:mjhasnain15@gmail.com">Say Hello</a> -->
+
+    <input type="button" value="Cheers" onclick="letsCheers()" />
+    <button onclick="letsCheers()">Cheers</button>
+
+    <div class="container" onmouseover="inside()" onmouseout="outside()"></div>
+    <div
+      class="secondary"
+      onmouseover="this.style.backgroundColor = 'yellow'"
+      onmouseout="this.style.backgroundColor = 'blue'"
+    ></div>
+
+    <div class="animated" onmouseover="this.style.borderRadius = '100px'" onmouseout="this.style.borderRadius = '0px'"></div>
+
+    <img src="assets/img1.jpg" class="img" onmouseover="src='assets/img2.png'" onmouseout="src='assets/img1.jpg'">
+  </body>
+  <script src="js/app.js"></script>
+</html>
