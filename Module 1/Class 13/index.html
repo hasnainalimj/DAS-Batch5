@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CLass 13</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- <input
+      type="text"
+      placeholder="Enter your name!"
+      onfocus="this.style.borderColor = 'red'"
+      onblur="this.style.borderColor = 'black'"
+    /> -->
+
+    <input
+      type="text"
+      placeholder="Enter your name!"
+      onfocus="makeBg(this)"
+      onblur="removeBg(this)"
+      id="txtName"
+    />
+    <button onclick="getValue()">Get Value</button>
+
+    <h1 id="heading">Pakistan</h1>
+
+    <select id="cities">
+      <option value="">Select City</option>
+      <option value="karachi">Karachi</option>
+      <option value="lahore">Lahore</option>
+      <option value="kpk">KPK</option>
+    </select>
+    <button onclick="getProvince()">Get Province</button>
+
+    <h1 id="txtProvince"></h1>
+    <br>
+
+
+    <p id="paragraph"></p> 
+    <button id="reading" onclick="read()">Read more</button>
+    <br>
+    <br>
+    <img src="assets/img1.jpg" width="500px" height="500px" id="img" onmouseover="changeInImg()" onmouseout="changeOutImg()">
+
+    <h3 id="number">0310-</h3>
+    <button id="btnNum" onclick="increase()">Add</button>
+
+  </body>
+  <script src="js/app.js"></script>
+</html>
