@@ -1,0 +1,13 @@
+FMP: 
+
+QUIZ APP:
+
+1) Super Admin:
+	1) Super Admin Login
+	2) Super admin can create quiz(question, answers, marks, due date, assign to students with id,random password)
+
+2) Student:
+	1) Student can login with assigned credentials
+	2) Validate if allowed to enter exam 
+	3) Attempt quiz
+	4) Generate Result

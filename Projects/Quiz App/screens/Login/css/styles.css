@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.heading {
+  font-size: 40px;
+  margin-top: 35%;
+  margin-left: 20px;
+}
+
+.metaText {
+  margin-top: 5px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.container {
+  width: "100%";
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs {
+  width: 90%;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  outline: none;
+  box-shadow: none;
+  padding-left: 10px;
+  font-size: 20px;
+  border: 1px solid gray;
+}
+
+.alphaContainer {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.label {
+  color: blue;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button {
+  width: 90%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.newAccountLabel {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  color: blue;
+  font-size: 20px;
+  cursor: pointer;
+}

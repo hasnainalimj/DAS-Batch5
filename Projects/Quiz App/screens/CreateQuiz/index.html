@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Create Quiz</title>
+  </head>
+  <body>
+    <img
+      src="../../assets/images/logout.png"
+      alt="Logout"
+      class="logout"
+      onclick="logout()"
+    />
+    <h1 class="heading">Welcome,</h1>
+    <p class="email">tonystark@gmail.com</p>
+
+    <p class="label">Questions:</p>
+    <div class="listContainer" id="quizSection">
+      <input type="text" placeholder="Enter question" class="inputs" />
+      <div class="row">
+        <input type="text" placeholder="Option 1" class="options" />
+        <input type="text" placeholder="Option 2" class="options" />
+      </div>
+      <div class="row">
+        <input type="text" placeholder="Option 3" class="options" />
+        <input type="text" placeholder="Option 4" class="options" />
+      </div>
+      <input type="text" placeholder="Enter correct answer" class="inputs" />
+      <button class="addMore">Add more</button>
+      <div class="headingContainer">
+        <p class="label2">Select Students:</p>
+      </div>
+      <select class="inputs">
+        <option class="values" value="">Faizan</option>
+        <option class="values" value="">Sami</option>
+        <option class="values" value="">Kaleem</option>
+      </select>
+      <button class="addMore">Add more</button>
+      <div class="headingContainer">
+        <p class="label2">Due Date:</p>
+      </div>
+      <input type="date" placeholder="Enter question" class="inputs" />
+    </div>
+    <div class="addQuizBtn">
+      <img src="../../assets//images/tick.png" alt="Tick" class="tick" />
+    </div>
+  </body>
+  <script src="js/app.js"></script>
+</html>
